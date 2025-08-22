@@ -30,8 +30,8 @@ app.use("/api/", limiter)
 
 app.use(
   cors({
-    origin: "https://cyberwork.vercel.app/",
- optionsSuccessStatus: 200,
+  origin: "https://cyberwork.vercel.app",
+  optionsSuccessStatus: 200,
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
