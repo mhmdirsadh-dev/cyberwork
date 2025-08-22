@@ -30,7 +30,7 @@ app.use("/api/", limiter)
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: "https://cyberwork.vercel.app/",
  optionsSuccessStatus: 200,
   credentials: true,
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
