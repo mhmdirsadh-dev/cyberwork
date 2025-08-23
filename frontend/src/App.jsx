@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-import { AuthProvider } from "./context/AuthContext"
+
 import Header from "./components/Header"
 import Home from "./pages/Home"
 import FindJobs from "./pages/FindJobs"
@@ -9,7 +9,7 @@ import Testimonials from "./pages/Testimonials"
 
 function App() {
   return (
-    <AuthProvider>
+
       <div className="min-h-screen bg-gray-50">
         <Header />
         <main>
@@ -22,7 +22,6 @@ function App() {
           </Routes>
         </main>
       </div>
-    </AuthProvider>
   )
 }
 
