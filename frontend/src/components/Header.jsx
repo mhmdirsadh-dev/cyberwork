@@ -70,7 +70,7 @@ const Header = () => {
             <button
               onClick={() => setIsCreateJobOpen(true)}
               disabled={isSubmitting}
-              className="bg-gradient-to-r from-purple-500 to-purple-600 text-white px-6 py-2 rounded-full text-sm font-medium hover:from-purple-600 hover:to-purple-700 transition-all disabled:opacity-50"
+              className="bg-gradient-to-b from-[#A128FF] to-[#6100AD] text-white px-6 py-2 rounded-full text-sm font-medium transition-all disabled:opacity-50"
             >
               {isSubmitting ? "Creating..." : "Create Jobs"}
             </button>
